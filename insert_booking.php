@@ -4,7 +4,7 @@ require_once("db_connect.php");
 ?>
 
 <?php
-print_r($_POST);
+//print_r($_POST);
 if (isset($_POST['massage_time'])){   //check if fullname is there
         /*stripslashes() function removes backslashes added by the addslashes() 
         mysqli_real_escape_string is used to stop SQL injection attack 
